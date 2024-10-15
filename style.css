@@ -1,0 +1,203 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(114, 81, 160);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px 15px 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0 10px 35px rgb(50, 14, 65);
+}
+hr {
+    border: 1px solid rgb(229, 229, 229);
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 20px;
+}
+.container .main img{
+    width: 40px;
+}
+.slack:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.trello:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.rb:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.jira:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.if:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.dropbox:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 10px grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container .main .row-1, .row-2 {
+    display: flex;
+    flex-direction: row;
+}
+.container .main p {
+    font-size: 8px;
+    color: grey;
+    text-align: center;
+}
+.container .footer button {
+    padding: 15px 85px;
+    font-size: 8px;
+    background-color: #6680ff;
+    border: #6680ff;
+    border-radius: 5px;
+    color: white;
+}
+.container .main .slack {
+    padding: 10px 20px 0px 20px;
+}
+.container .main .trello {
+    padding: 10px 20px 0px 20px;
+}
+.container .main .rb{
+    padding: 10px 10px 0px 20px;
+}
+.container .main .jira {
+    padding: 10px 20px 0px 20px;
+}
+.container .main .if {
+    padding: 10px 20px 0px 20px;
+}
+.container .main .dropbox {
+    padding: 10px 20px 0px 20px;
+}
+.container .main .rb img {
+padding-left: 3px;
+}
+.slack:hover button{
+    display: block;
+    z-index: 2;
+}
+.slack button{
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    left: 256px;
+    top: 253px;
+    background-color: #65952d;
+    border:1px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.trello:hover button {
+    display: block;
+    z-index: 2;
+}
+.trello button{
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    left: 334px;
+    top: 253px;
+    background-color: #65952d;
+    border:1px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.rb:hover button {
+    display: block;
+    z-index: 2;
+}
+.rb button{
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    left: 417px;
+    top: 253px;
+    background-color: #65952d;
+    border:1px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.jira:hover button {
+    display: block;
+    z-index: 2;
+}
+.jira button{
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    left: 255px;
+    top: 335px;
+    background-color: #65952d;
+    border:1px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.if:hover button {
+    display: block;
+    z-index: 2;
+}
+.if button{
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    left: 334px;
+    top: 335px;
+    background-color: #65952d;
+    border:1px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
+.dropbox:hover button {
+    display: block;
+    z-index: 2;
+}
+.dropbox button{
+    width: 75px;
+    height: 25px;
+    position: absolute;
+    left: 418px;
+    top: 335px;
+    background-color: #65952d;
+    border:1px;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    display: none;
+}
